@@ -71,3 +71,42 @@ typedef struct {
     const char *original_ip;
     int result;
 } ThreadData;
+
+// Callback cURL untuk menulis data ke dalam memori
+static size_t WriteMemoryCallback()
+
+// Mengambil alamat IP yang digunakan oleh proxy tertentu
+char *get_ip()
+
+// Mengekstrak IP dari respon JSON yang diberikan
+char *extract_ip()
+
+// Menguji apakah proxy bekerja dengan membandingkan IP yang diperoleh dengan IP asli
+int test_proxy()
+
+// Fungsi thread untuk menguji proxy
+void *test_proxy_thread()
+
+// Menguji semua proxy secara multithread
+void test_all_proxies_multithread()
+
+// Mengacak urutan proxy
+void shuffle_proxies()
+
+// Menyaring proxy yang bekerja
+void filter_working_proxies()
+
+// Membangun rantai proxy untuk digunakan
+void build_proxy_chain()
+
+// Mencetak rantai proxy yang digunakan
+void print_proxy_chain()
+
+// Mengunduh file melalui proxy menggunakan curl
+void download_file_via_proxy()
+
+// Fungsi utama yang menggunakan rantai proxy untuk mengunduh file
+void use_proxy_chain()
+
+//Fungsi Utama
+int main()
